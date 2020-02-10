@@ -1,0 +1,67 @@
+main {
+  display: grid;
+  grid-template-rows: 40vh 3em 10em;
+  grid-template-columns: auto  repeat(9, 5em) auto;
+  grid-template-areas:
+  ". . . . . . . . . . ."
+  ". A S D F G H J K L ."
+  ". . . . . . . . . . ."
+}
+
+footer {
+  text-align: right;
+}
+
+main > div {
+  justify-self: center;
+  align-self: center;
+  border: 1px solid black;
+  min-width: 4em;
+  text-align: center;
+}
+
+main > div > * {
+  margin: .5em auto;
+}
+
+.hilit {
+  color: red;
+  scale: 1.2;
+  transition: all 0.1s;
+}
+
+#A {
+  grid-area: A;
+}
+
+#S {
+  grid-area: S;
+}
+
+#D {
+  grid-area: D;
+}
+
+#F {
+  grid-area: F;
+}
+
+#G {
+  grid-area: G;
+}
+
+#H {
+  grid-area: H;
+}
+
+#J {
+  grid-area: J;
+}
+
+#K {
+  grid-area: K;
+}
+
+#L {
+  grid-area: L;
+}
