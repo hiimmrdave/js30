@@ -1,6 +1,6 @@
 main {
   display: grid;
-  grid-template-rows: 40vh 3em 10em;
+  grid-template-rows: calc(50vh - 5em) 8em calc(50vh - 5em);
   grid-template-columns: auto  repeat(9, 5em) auto;
   grid-template-areas:
   ". . . . . . . . . . ."
