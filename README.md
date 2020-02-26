@@ -6,3 +6,5 @@ I'm only uploading code that I write myself. Files referenced from a "js30" dire
 # Progress
 - 01-drumkit done 2/10/20
 I built the html in a way that felt more semantic to me. The keyboard events are case sensitive using KeyboardEvent.key, which was intentional.
+- 02-clock done several days ago, posted 2/25
+I built the clock in SVG, and otherwise followed the recommendations from the course.
