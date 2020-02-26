@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>tick tock and you don't stop</title>
+        <link rel="stylesheet" href="./style.css" />
+    </head> 
+    <body>
+        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 100 100" id="clock">
+            <circle cx="50" cy="50" r="40" stroke-width="4" stroke="black" fill="none" id="face"/>
+            <path id="sec" class="hand"
+            d="M 50,50 h1 l-1,-38 -1,38 z"/>
+            <path id="min" class="hand"
+            d="M 50,50 v2 l2,-2 -1.5,-2 .5,-15 -1,-15 -1,15 .5,15 -1.5,2 2,2z"/>
+            <path id="hr" class="hand"
+            d="M 50,50 v1 l3,-1 l-2.5,-1 2,-2 -2,-2 1.5,-8 -2,-8 -2,8 1.5,8 -2,2 2,2 -2.5,1 3,1"/>
+            <g id="numbers">
+              <text x="50" y="20">12</text>
+              <text x="50" y="80">6</text>
+              <text x="80" y="50">3</text>
+              <text x="20" y="50">9</text>
+            </g>
+        </svg>
+        <script src="./script.js"></script>
+    </body>
+</html>
