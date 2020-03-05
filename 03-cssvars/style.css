@@ -1,0 +1,16 @@
+:root {
+  --maincolor: hsla(244,9%,37%,1);
+  --bluramt: 2px;
+  --borderamt: 10px;
+}
+
+img {
+  border: var(--borderamt) solid var(--maincolor);
+  height: auto;
+  filter: blur(var(--bluramt));
+}
+
+i {
+  color: var(--maincolor);
+  filter: blur(var(--bluramt));
+}
