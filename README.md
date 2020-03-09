@@ -10,3 +10,7 @@ I'm only uploading code that I write myself. Files referenced from a "js30" dire
 I built the html in a way that felt more semantic to me. The keyboard events are case sensitive using KeyboardEvent.key, which was intentional.
 - 02-clock done several days ago, posted 2/25
 I built the clock in SVG, and otherwise followed the recommendations from the course.
+- 03-cssvars
+I did this over the course of two days in between trying to cross-compile deno from fedora x86_64 to aarch64 (for raspberry pi). This was the first lesson I attempted in typescript.
+- 04-arraycardio1, posted 3/9
+I preferred arrow functions with implicit returns. I used more terse syntax than the course, but the solutions are generally pretty straightforward.
