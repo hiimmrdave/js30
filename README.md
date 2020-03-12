@@ -14,3 +14,5 @@ I built the clock in SVG, and otherwise followed the recommendations from the co
 I did this over the course of two days in between trying to cross-compile deno from fedora x86_64 to aarch64 (for raspberry pi). This was the first lesson I attempted in typescript.
 - 04-arraycardio1, posted 3/9
 I preferred arrow functions with implicit returns. I used more terse syntax than the course, but the solutions are generally pretty straightforward.
+- 05-flexpanel, done 3/10 posted 3/11
+I didn't add background images, just enough difference to get the effect. I also simplified the css a little.
